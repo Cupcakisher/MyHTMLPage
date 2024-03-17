@@ -1,1 +1,54 @@
-/* Beginning of a Long Journey */
+/* Provides Information and Page Base */
+body{
+    background-color: #FAE1ED;
+    color:#F38CB2;
+    font-family:'haxorville';
+    font-size:17px;
+}
+.Info-bttn{
+    font-family:'Protomo';
+    font: size 30px;
+    background-color:#F38CB2;
+    width: 200px;
+    height: 35px;
+    border-radius:4px;
+    border-color:#F38CB2;
+    cursor:pointer;
+    transition:opacity .25s;
+    text-align:center;
+    display:block;
+    margin-left: auto;
+}
+.Info-bttn:hover{
+    opacity:70%;
+}
+
+.Folio-bttn{
+    font-family:'Protomo';
+    font-size: small;
+    color:black;
+    background-color:#F38CB2;
+    height:100px;
+    width:40px;
+}
+
+/* Setting up the text format */
+.header{
+    display:flex;
+    align-items:baseline;
+    margin:10px;
+}
+/* Cursor Related Code */
+.cursor{
+    background:#F38CB2;
+    line-height:17px;
+    margin-left: 3px;
+    width: 5px;
+    height: 18px;
+    animation: blink 0.8s infinite;
+}
+@keyframes blink{
+    0% {background: transparent}
+    50% {background: #F38CB2}
+    100% {background:transparent}
+}
