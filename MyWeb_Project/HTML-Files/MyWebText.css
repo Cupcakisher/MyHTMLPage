@@ -3,31 +3,61 @@ body{
     background-color: #FAE1ED;
     color:#F38CB2;
     font-family:'haxorville';
-    font-size:17px;
+    font-size:25px;
+
 }
 .Info-bttn{
     font-family:'Protomo';
-    font: size 30px;
+    padding:10px;
+    color: #FAE1ED;
     background-color:#F38CB2;
-    width: 200px;
-    height: 35px;
     border-radius:4px;
-    border-color:#F38CB2;
+    border-color: #F6BBD6;
+    border-color:#F6BBD6;
     cursor:pointer;
     transition:opacity .25s;
-    text-align:center;
-    display:block;
-    margin-left: auto;
+
 }
 .Info-bttn:hover{
     opacity:70%;
 }
-
+.Folio-bttn{
+    font-family:'Protomo';
+    padding:10px;
+    color:#FAE1ED;
+    background-color: #F38CB2;
+    border-radius: 4px;
+    border-color:#F6BBD6;
+    cursor:pointer;
+    transition:opacity .25s;
+}
+.Folio-bttn:hover{
+    opacity:70%;
+}
+.moreBttns{
+   text-align:end;
+}
+.sub{
+    text-align:center;
+    font-size:medium;
+}
+.title{
+    font-size:x-small;
+    font-weight:bold;
+    text-align:center;
+}
+.art{
+    font-size:xx-small;
+    text-align:center;
+}
 /* Setting up the text format */
 .header{
     display:flex;
     align-items:baseline;
     margin:10px;
+}
+.font{
+    font-size:medium;
 }
 /* Cursor Related Code */
 .cursor{
@@ -35,7 +65,7 @@ body{
     line-height:17px;
     margin-left: 3px;
     width: 5px;
-    height: 18px;
+    height: 17px;
     animation: blink 0.8s infinite;
 }
 @keyframes blink{
