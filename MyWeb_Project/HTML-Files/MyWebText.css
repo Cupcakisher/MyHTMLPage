@@ -23,15 +23,6 @@ body{
     opacity:70%;
 }
 
-.Folio-bttn{
-    font-family:'Protomo';
-    font-size: small;
-    color:black;
-    background-color:#F38CB2;
-    height:100px;
-    width:40px;
-}
-
 /* Setting up the text format */
 .header{
     display:flex;
