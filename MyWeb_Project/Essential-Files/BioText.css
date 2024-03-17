@@ -1,4 +1,6 @@
-/*List of Fonts and Their Traits */
+body{
+    background-color: #FAE1ED;
+}
 .header{
     font-family:'Protomo';
     text-align: center;
